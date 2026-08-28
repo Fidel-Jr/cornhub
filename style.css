@@ -1,0 +1,138 @@
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: #e9edf2;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}   
+
+.btn-fintech{
+    background-color: #0b1a2e;
+    color: white;
+}
+
+.btn-fintech:hover{
+    background-color: #0e2039;
+    color: white;
+}
+
+.feature-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 0.75rem;
+}
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08) !important;
+}
+.feature-icon {
+    font-size: 2.5rem;
+    color: #1e7e34;
+}
+.section-heading {
+    color: #1e2a3a;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+.card-title {
+    font-weight: 600;
+    color: #1e2a3a;
+}
+.card-text {
+    color: #5a6a7a;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-body .card-text {
+    flex: 1;
+}
+
+#contact-section {
+    
+    border-radius: 2rem;
+    padding: 3rem 2rem;
+}
+
+.form-control {
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    border: 2px solid #e9edf2;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #0b1a2e;
+}
+
+.btn-primary {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+    padding: 0.75rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #146c2b;
+    border-color: #146c2b;
+    box-shadow: 0 8px 25px rgba(30, 126, 52, 0.3);
+}
+
+footer.bg-dark, .navbar {
+    background: #0b1a2e !important;
+    margin-top: auto;
+}
+
+footer .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    color: #a8b8c8;
+    font-size: 1.25rem;
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+
+footer .social-icon:hover {
+    background: #1e7e34;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+footer .footer-link {
+    color: #a8b8c8;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+footer .footer-link:hover {
+    color: #ffffff;
+}
+
+footer .border-top {
+    border-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+@media (max-width: 768px) {
+    #contact-section {
+        padding: 2rem 1.5rem;
+    }
+}
